@@ -19,8 +19,9 @@
     <div class="logo"><img src="./images/logo.svg" alt="" srcset=""></div>
     <h1 class="title">We are launching <strong>soon!</strong></h1>
     <span class="text">Subscribe and get notified</span>
-    <form action="" class="form">
-      <input type="text" class="email" placeholder="Your email address ... ">
+    <form action="" class="form" id='form'>
+      <input type="text" class="email" id='inputEmail' placeholder="Your email address ... ">
+      <span class="error" id="error">Please provide a valid email adress</span>
       <button class="btn">Notify Me</button>
     </form>
     <div class="img">
@@ -39,6 +40,8 @@
       Coded by <a href="https://github.com/AraujoAlexS">Alex Araújo</a>.
     </p>
   </footer>
+
+  <script src="./dist/js/index.js"></script>
 </body>
 
 </html>
